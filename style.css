@@ -1,0 +1,86 @@
+.cardbody{
+    border:2px solid black ;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    
+
+}
+s{
+    color: red;
+}p{
+    color:blue;
+}
+button{
+    color:white;
+    padding: 1%;
+    background-color: green;
+    width: 50%;
+}
+.cardbody img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        border:2px solid black ;
+        padding: 1%;
+        margin: 1%;
+        font-size: 20px;
+        text-align: center;
+        width: 25%;
+    
+    }
+    s{
+        color: red;
+    }p{
+        color:blue;
+    }
+    button{
+        color:white;
+        padding: 1%;
+        background-color: green;
+        width: 50%;
+    }
+    .cardbody img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+       
+        
+    } 
+    @media only screen and (min-width:481px) and (max-width:768px) 
+}
+.cardbody{
+    border:2px solid black ;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+
+}
+s{
+    color: red;
+}p{
+    color:blue;
+}
+button{
+    color:white;
+    padding: 1%;
+    background-color: green;
+    width: 50%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+
